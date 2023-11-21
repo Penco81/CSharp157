@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>DA9E08C8-8428-4657-8128-C4AF92C7275D</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>CSharp157</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Tips3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tips1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tips2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tips4.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tips5.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tips6.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tips7.cs" />
+  </ItemGroup>
+</Project>
